@@ -30,6 +30,13 @@ describe 'collections practice' do
     end
   end
 
+  # Question 4 Advanced
+  describe '#swap_elements_from_to' do
+    it 'will allow you to specify the index of the element you would like to move to a new index' do
+      expect(swap_elements_from_to([1, 2, 3, 4, 5, 6], 0, 5)).to eq([2, 3, 4, 5, 6, 1])
+    end
+  end
+
   # Question 5
   describe '#reverse_array' do
     it 'reverse the order of an array of integers' do
